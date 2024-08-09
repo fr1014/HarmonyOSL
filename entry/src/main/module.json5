@@ -32,29 +32,6 @@
             ]
           }
         ]
-      },
-      {
-        "name": "HarmonyDocAbility",
-        "srcEntry": "./ets/harmonydocability/HarmonyDocAbility.ets",
-        "description": "$string:HarmonyDocAbility_desc",
-        "icon": "$media:layered_image",
-        "label": "$string:HarmonyDocAbility_label",
-        "startWindowIcon": "$media:startIcon",
-        "startWindowBackground": "$color:start_window_background"
-      }
-    ],
-    "extensionAbilities": [
-      {
-        "name": "EntryBackupAbility",
-        "srcEntry": "./ets/entrybackupability/EntryBackupAbility.ets",
-        "type": "backup",
-        "exported": false,
-        "metadata": [
-          {
-            "name": "ohos.extension.backup",
-            "resource": "$profile:backup_config"
-          }
-        ],
       }
     ]
   }

@@ -8,7 +8,9 @@ struct HarmonyDocPage {
   @State message: string = 'Hi there'
 
   build() {
+    // Row: 管理View的横向排列
     Row() {
+      // Column: 管理View的竖向排列
       Column() {
         Text(this.message)
           .fontSize(50)
@@ -39,7 +41,14 @@ struct HarmonyDocPage {
           }
         })
       }
-      .width('100%')
+      .backgroundColor('#ffec9f69')
+      .width('80%')
+      Column() {
+        Text('测试')
+          .fontSize(25)
+      }
+      .backgroundColor('#ff65ea21')
+      .width('20%')
     }
     .height('100%')
   }
